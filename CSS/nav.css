@@ -1,0 +1,110 @@
+/*navbar background */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 6px;
+    width: 99%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: url("../IMAGES/FLINE.jpg");
+    background-size: auto;
+    border-radius: 20px;  
+    box-shadow: 2px 2px 20px black, 2px 2px 20px black;
+  
+
+  }
+/*navbar list background */
+/*
+  .bg-nav-color{
+    background-color: black;
+    border-radius: 20px;
+    margin-left:30px;
+    border: solid yellow 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 10px 10px  grey;
+  }
+*/
+@keyframes rotate {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+   /* Define the initial state of the navigation link */
+   .nav-link {
+    background-color: black;
+    color: yellow;
+    padding: 10px 20px;
+    border: yellow 5px solid;
+    border-radius: 20px;
+    margin-left:30px;
+    text-decoration: none;
+    box-shadow: none;
+    transition: box-shadow 0.5s ease, transform 0.5s ease, border 0.5s ease;
+    animation: rotate 1s ease-in-out;
+    animation-iteration-count: 1;
+  }
+
+  /* Define the final state of the navigation link when hovered */
+  .nav-link:hover {
+    box-shadow: 3px 2px 50px grey, 3px 2px 50px grey, 3px 2px 50px grey;
+    transform: translateY(-5px);
+    border-color: #fff;
+    cursor: pointer;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav li {
+    padding: 0 10px;
+  }
+  /*navbar text*/
+  nav a {
+    font-size: 30px;
+    font-weight: bolder;
+    color: yellow;
+    text-decoration: none;
+    word-spacing: 20em;
+ 
+  }
+
+  nav a:hover{
+    text-decoration: none;
+    color:yellow;
+  }
+
+ 
+
+  
+
+
+
+
+  
+
+
+footer{
+    width: 15%;
+    padding: 10px;
+    background-color: grey;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    right:14px;
+    bottom:-1px;
+    border-color:grey solid 5px;
+    border-radius: 5px;    
+}
